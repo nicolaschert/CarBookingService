@@ -3,6 +3,20 @@
 
 This is a service for managing a dealership's car inventory and date-based bookings.
 
+
+## Features
+- **Car Inventory Management**: Create, read, update, and delete cars
+- **Date-based Bookings**: Check availability and book cars for specific date ranges with conflict detection
+- **In-Memory Database**: Pydantic-based in-memory storage
+- **RESTful API**: Clean REST endpoints with proper HTTP status codes
+- **Comprehensive Tests**: Unit and integration tests included
+
+## Technology Stack
+- **FastAPI**: Modern, fast web framework for building APIs
+- **Pydantic**: Data validation using Python type annotations
+- **Uvicorn**: ASGI server for running FastAPI
+- **Pytest**: Testing framework
+
 ## API Endpoints
 
 ### Cars
