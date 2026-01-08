@@ -110,6 +110,9 @@ To make this project suitable for production deployment, several important chang
 - **Production-Ready Server**  
    Use a production-grade ASGI server such as Uvicorn or Hypercorn with proper worker management (e.g., via Gunicorn or systemd). Configure timeouts, keep-alives, and health checks.
 
+- **Containerization**  
+  Add container configuration (e.g., Dockerfile, docker-compose) for reproducible deployments and environment consistency.
+
 - Some other aspects to take into account: 
   - **Rate Limiting and Abuse Protection**  
   - **Input/Output Sanitization and Security**  
